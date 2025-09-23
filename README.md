@@ -1,6 +1,7 @@
 # SWE437: Software Testing and Maintenance
 
 **Description**
+
 Concepts and techniques for testing and modifying software in evolving environments. Topics include software testing at the unit, module, subsystem, and system levels; developer testing; automatic and manual techniques for generating test data; testing concurrent and distributed software; designing and implementing software to increase maintainability and reuse; evaluating software for change; and validating software changes.
 
 **Required Skills**
