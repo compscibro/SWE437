@@ -1,0 +1,39 @@
+================ java -cp . Assignment2 -h
+java Assignment2
+   Arguments
+       -ln, --list-of-numbers
+              List of numbers to compute statistics with
+
+       -sm, --statistics-mode
+              Statistics to apply to the list of numbers. Options are:
+              1. Calculate Mean
+              2. Calculate Median
+              3. Calculate Mode
+              4. Print All Computed Averages
+
+        -h, --help
+              Prints this message
+================ java -cp . Assignment2 -ln "3 4 5" -sm 4
+The Mean is: 4.0
+The Median is: 4.0
+The Mode is: 3 4 5
+================ java -cp . Assignment2 -ln "3;4;5" -sm 2
+The Median is: 4.0
+================ java -cp . Assignment2 -ln "1 1.0 2 2.0 3.0" -sm 3
+The Mode is: 1 2
+================ java -cp . Assignment2 -ln "-5 -1 0 1 5" -sm 4
+The Mean is: 0.0
+The Median is: 0.0
+The Mode is: -5 -1 0 1 5
+================ java -cp . Assignment2 -ln "2.5 2.5 3.5 3.5" -sm 3
+The Mode is: 2.5 3.5
+================ java -cp . Assignment2 -ln ".5 +3 0.5 1.5" -sm 3
+The Mode is: 0.5 1.5 3 5
+================ java -cp . Assignment2 -ln "trash 7 !!! 8.5 begin" -sm 4
+The Mean is: 7.75
+The Median is: 7.75
+The Mode is: 7 8.5
+================ java -cp . Assignment2 -ln "" -sm 1
+Missing arguments
+================ java -cp . Assignment2 -ln "3 4 5" -sm 5
+The response is: Invalid option
